@@ -1,0 +1,13 @@
+prefix=C:/codes/ml-krish-naik/python/03-third/venv/Library
+exec_prefix=C:/codes/ml-krish-naik/python/03-third/venv/Library
+libdir=C:/codes/ml-krish-naik/python/03-third/venv/Library/lib
+sharedlibdir=C:/codes/ml-krish-naik/python/03-third/venv/Library/lib
+includedir=C:/codes/ml-krish-naik/python/03-third/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.1
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

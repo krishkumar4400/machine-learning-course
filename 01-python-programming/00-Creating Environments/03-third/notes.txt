@@ -1,0 +1,33 @@
+what is python project environment 
+
+why environment 
+
+different ways of creating environment
+    3 ways 
+
+pip install -r requirements.txt
+pip install ipykernel
+conda activate ./venv
+conda activate venv/
+conda update -n base -c defaults conda
+conda create -p venv python==3.12
+
+way-1: by using the python command
+    python -m venv myenv
+    activate = myenv\Scripts\activate
+    pip install numpy pandas
+    deactivate
+
+    by default it will install python version which is present in the system
+
+way-2
+    pip install virtualenv
+    virtualenv -p python3 virtual_env
+    activate = virtual_env\Scripts\activate
+    deactivate
+
+way-3
+    conda create -p venv python==3.10 -y
+
+
+conda create--Linux,windows virtualenv--Linux,Windows python--
